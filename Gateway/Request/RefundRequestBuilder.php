@@ -14,7 +14,7 @@ use net\authorize\api\contract\v1 as AnetAPI;
 
 class RefundRequestBuilder extends AbstractRequestBuilder
 {
-    const ECHECK_MASK = 'XXXX';
+    public const ECHECK_MASK = 'XXXX';
 
     /**
      * Build request of transaction data

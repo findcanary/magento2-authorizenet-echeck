@@ -10,7 +10,7 @@ namespace AuthorizeNet\ECheck\Plugin;
 class ConfiguratorPlugin
 {
 
-    const PAYMENT_METHOD = 'Echeck';
+    public const PAYMENT_METHOD = 'Echeck';
 
     /**
      * @var \AuthorizeNet\PayPalExpress\Gateway\Config\Config

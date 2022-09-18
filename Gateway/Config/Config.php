@@ -17,10 +17,10 @@ use Magento\Store\Model\StoreManagerInterface;
  */
 class Config extends \AuthorizeNet\Core\Gateway\Config\Config
 {
-    const CODE = 'anet_echeck';
-    const VAULT_CODE = 'anet_echeck_vault';
-    
-    const KEY_AGREEMENT_TEMPLATE = 'agreement_template';
+    public const CODE = 'anet_echeck';
+    public const VAULT_CODE = 'anet_echeck_vault';
+
+    public const KEY_AGREEMENT_TEMPLATE = 'agreement_template';
 
     /**
      * @var AccountType

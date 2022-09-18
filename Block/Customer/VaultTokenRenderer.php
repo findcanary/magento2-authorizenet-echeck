@@ -14,7 +14,7 @@ use Magento\Vault\Block\AbstractTokenRenderer;
 
 class VaultTokenRenderer extends AbstractTokenRenderer
 {
-    const ECHECK_MASK = 'XXXX';
+    public const ECHECK_MASK = 'XXXX';
 
     /**
      * @var Config
